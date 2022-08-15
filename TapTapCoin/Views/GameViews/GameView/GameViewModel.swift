@@ -75,6 +75,7 @@ final class GameViewModel: ObservableObject {
     @Published var currPaPressed:Bool = false
     @Published var opp_disconnected:Bool = false
     @Published var is_a_tie:Bool = false
+    @Published var ready_uped:Bool = false
     @Published var fColor:Color = Color(.yellow)
     @Published var sColor:Color = Color(.yellow)
     private enum coin_val:String {
@@ -117,8 +118,12 @@ final class GameViewModel: ObservableObject {
             mSocket.on("GAMEID") {(dataArr, ack) -> Void in
                 let game_id_response = dataArr[0] as! String
                 if (game_id_response == "SUCCESS"){
-                    self.count_down()
-//                    self.mSocket.emit("STARTGAME", self.gameId)
+                    self.cancelled = true
+                    self.second = self.second_player ?? "No Second"
+                    self.waitingStatus = "Opponent connected"
+                }
+                else{
+                    self.second = "Waiting"
                 }
             }
             mSocket.on("TAP") {(dataArr, ack) -> Void in
@@ -177,6 +182,40 @@ final class GameViewModel: ObservableObject {
                     GameHandler.sharedInstance.closeConnection()
                     self.in_game = false
                 }
+            }
+            
+            mSocket.on("READY") {(dataArr, ack) -> Void in
+                let response = dataArr[0] as! String
+                let user1_status = response.split(separator: "|")[0]
+                let user2_status = response.split(separator: "|")[1]
+                let ready_username = response.split(separator: "|")[2]
+                if user1_status == "true"{
+                    if String(ready_username) == self.first_player ?? "None"{
+                        self.fColor = Color(.green)
+                    }
+                    else if String(ready_username) == self.second_player ?? "None"{
+                        self.sColor = Color(.green)
+                    }
+                    if user2_status == "true"{
+                        self.start_game(username: String(ready_username))
+                    }
+                }
+                else{
+                    if user2_status == "true"{
+                        if String(ready_username) == self.second_player ?? "None"{
+                            self.sColor = Color(.green)
+                        }
+                    }
+                }
+            }
+            
+            mSocket.on("CANCELLED") {(dataArr, ack) -> Void in
+                self.waitingStatus = "Opponent disconnected"
+            }
+            
+            mSocket.on("STARTCGAME") {(dataArr, ack) -> Void in
+                self.ready_uped = true
+                self.count_down()
             }
             
             mSocket.on("DISCONNECT") {(dataArr, ack) -> Void in

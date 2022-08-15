@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
 
 @main
 struct TapTapCoinApp: App {
+    init(){
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

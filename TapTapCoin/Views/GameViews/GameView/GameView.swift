@@ -169,7 +169,7 @@ struct GameView: View {
             .padding()
             
             if (viewModel.startGame == false){
-                if viewModel.custom_game ?? false{
+                if viewModel.ready_uped == false{
                     VStack{
                         Text(viewModel.waitingStatus)
                             .foregroundColor(Color(.red))

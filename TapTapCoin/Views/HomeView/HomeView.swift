@@ -19,7 +19,6 @@ struct HomeView: View {
             Color(.red)
                 .ignoresSafeArea()
             VStack(alignment: .center, spacing: UIScreen.main.bounds.width * 0.2){
-                Spacer()
                 Text("TapTapCoin")
                     .font(.system(size: UIScreen.main.bounds.width * 0.15))
                     .foregroundColor(Color(.yellow))

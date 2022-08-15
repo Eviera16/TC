@@ -22,6 +22,7 @@ struct LoginView: View {
                 Text("Login")
                     .font(.system(size: UIScreen.main.bounds.width * 0.16))
                     .foregroundColor(Color(.red))
+                BannerAd(unitID: "ca-app-pub-3940256099942544~1458002511")
                 Form{
                     Section(header: Text("")){
                         TextField("Username", text: $viewModel.username)
