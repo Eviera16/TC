@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 final class HomeViewModel: ObservableObject {
     @AppStorage("session") var logged_in_user: String?
+    @AppStorage("ad_loaded") var ad_loaded: Bool?
     @Published var username:String = ""
     @Published var first_name:String = ""
     @Published var last_name:String = ""
@@ -26,6 +27,7 @@ final class HomeViewModel: ObservableObject {
     @Published var hasGI:Bool = false
     
     init(){
+        ad_loaded = false
         getUser()
         print("THE SCREEN SIZE IS BELOW")
         print(UIScreen.main.bounds.height)

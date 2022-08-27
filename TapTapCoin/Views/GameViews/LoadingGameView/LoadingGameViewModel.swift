@@ -19,6 +19,7 @@ final class LoadingGameViewModel: ObservableObject{
     @AppStorage("from_queue") var from_queue: Bool?
     @AppStorage("custom_game") var custom_game: Bool?
     @AppStorage("is_first") var is_first: Bool?
+    @AppStorage("ad_loaded") var ad_loaded: Bool?
     @Published var loading_status:String = "Loading . . ."
     @Published var queue_pop:String = "_ players in queue"
     private var found_queue:Bool = false
@@ -48,8 +49,10 @@ final class LoadingGameViewModel: ObservableObject{
                 if (self.connected == false){
                     let token = self.logged_in_user ?? "None"
                     if (token != "None"){
-                        self.mSocket.emit("PUTINQUEUE", token)
-                        self.connected = true
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.4) {
+                            self.mSocket.emit("PUTINQUEUE", token)
+                            self.connected = true
+                        }
                     }
                 }
             }

@@ -122,7 +122,7 @@ struct ProfileView: View {
                     }
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.1, alignment: .center)
                     .background(Color(.red))
-                    Spacer()
+                    BannerAd(unitID: "ca-app-pub-3940256099942544/2934735716")
                     HStack{
                         Button(action: {viewModel.logout()}, label: {
                             Text("Logout")

@@ -30,7 +30,7 @@ struct LoadingGameView: View {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle(tint:Color(.yellow)))
                     .scaleEffect(4)
-                Spacer()
+                BannerAd(unitID: "ca-app-pub-3940256099942544/2934735716")
                 Button(action: {
                     viewModel.return_home()
                 }, label: {

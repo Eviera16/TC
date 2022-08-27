@@ -10,26 +10,7 @@
 		562B5B0928A845B700640B64 /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B5B0828A845B700640B64 /* BannerAd.swift */; };
 		562B5B0B28A8490C00640B64 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 562B5B0A28A8490C00640B64 /* Podfile */; };
 		562B5B0D28A8491400640B64 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 562B5B0C28A8491400640B64 /* Podfile.lock */; };
-		562B5B4F28A884C100640B64 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B2328A85B1400640B64 /* WebKit.framework */; };
-		562B5B5028A884C100640B64 /* WebKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B2328A85B1400640B64 /* WebKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		562B5B5228A884C400640B64 /* Pods_TapTapCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1284938F3F4CE4102AE31893 /* Pods_TapTapCoin.framework */; };
-		562B5B5328A884C400640B64 /* Pods_TapTapCoin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1284938F3F4CE4102AE31893 /* Pods_TapTapCoin.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		562B5B5428A884C700640B64 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B2128A85B0900640B64 /* CoreMedia.framework */; };
-		562B5B5528A884C700640B64 /* CoreMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B2128A85B0900640B64 /* CoreMedia.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		562B5B5628A884C900640B64 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EDDCD3281E0318009659C1 /* CloudKit.framework */; };
-		562B5B5728A884C900640B64 /* CloudKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56EDDCD3281E0318009659C1 /* CloudKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		562B5B5828A884CA00640B64 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B1D28A85AEF00640B64 /* AVFoundation.framework */; };
-		562B5B5928A884CA00640B64 /* AVFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B1D28A85AEF00640B64 /* AVFoundation.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		562B5B5A28A884CE00640B64 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B1F28A85AFD00640B64 /* AdSupport.framework */; };
-		562B5B5B28A884CE00640B64 /* AdSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B1F28A85AFD00640B64 /* AdSupport.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		562B5B5D28A9BEC800640B64 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B5C28A9BEC800640B64 /* GoogleAppMeasurement.xcframework */; };
-		562B5B5F28A9BED000640B64 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B5E28A9BED000640B64 /* GoogleAppMeasurementIdentitySupport.xcframework */; };
-		562B5B6228A9BEF600640B64 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B6028A9BEF600640B64 /* GoogleMobileAds.xcframework */; };
-		562B5B6328A9BEF600640B64 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B6128A9BEF600640B64 /* GoogleUtilities.xcframework */; };
-		562B5B6728A9BF0200640B64 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B6428A9BF0100640B64 /* nanopb.xcframework */; };
-		562B5B6828A9BF0200640B64 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B6528A9BF0200640B64 /* UserMessagingPlatform.xcframework */; };
-		562B5B6928A9BF0200640B64 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B5B6628A9BF0200640B64 /* PromisesObjC.xcframework */; };
-		567DA674280106F30011F361 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 567DA673280106F30011F361 /* SocketIO */; };
 		5683E06F2801095B00A0242A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683E06E2801095B00A0242A /* ContentView.swift */; };
 		5683E0712801097C00A0242A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683E0702801097C00A0242A /* ContentViewModel.swift */; };
 		5683E07728010A1C00A0242A /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683E07628010A1C00A0242A /* ComingSoon.swift */; };
@@ -67,25 +48,6 @@
 		56EDDCD9281EDF06009659C1 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDDCD8281EDF06009659C1 /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		562B5B5128A884C100640B64 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				562B5B5528A884C700640B64 /* CoreMedia.framework in Embed Frameworks */,
-				562B5B5728A884C900640B64 /* CloudKit.framework in Embed Frameworks */,
-				562B5B5928A884CA00640B64 /* AVFoundation.framework in Embed Frameworks */,
-				562B5B5028A884C100640B64 /* WebKit.framework in Embed Frameworks */,
-				562B5B5328A884C400640B64 /* Pods_TapTapCoin.framework in Embed Frameworks */,
-				562B5B5B28A884CE00640B64 /* AdSupport.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		1284938F3F4CE4102AE31893 /* Pods_TapTapCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapTapCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		343E0487BFE7E7E7D6007C7A /* Pods-TapTapCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapCoin.release.xcconfig"; path = "Target Support Files/Pods-TapTapCoin/Pods-TapTapCoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,13 +58,6 @@
 		562B5B1F28A85AFD00640B64 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		562B5B2128A85B0900640B64 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		562B5B2328A85B1400640B64 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		562B5B5C28A9BEC800640B64 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
-		562B5B5E28A9BED000640B64 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
-		562B5B6028A9BEF600640B64 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
-		562B5B6128A9BEF600640B64 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
-		562B5B6428A9BF0100640B64 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
-		562B5B6528A9BF0200640B64 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
-		562B5B6628A9BF0200640B64 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
 		562D3CCE2832D1A200CEE857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567DA671280106470011F361 /* socket.io-client-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "socket.io-client-swift"; path = "../../../../../../../Library/Developer/Xcode/DerivedData/Tapped-cqvbqqsgozmxqbeiacqsguplfrhi/SourcePackages/checkouts/socket.io-client-swift"; sourceTree = "<group>"; };
 		5683E06E2801095B00A0242A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,20 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562B5B4F28A884C100640B64 /* WebKit.framework in Frameworks */,
-				562B5B6228A9BEF600640B64 /* GoogleMobileAds.xcframework in Frameworks */,
-				567DA674280106F30011F361 /* SocketIO in Frameworks */,
-				562B5B6928A9BF0200640B64 /* PromisesObjC.xcframework in Frameworks */,
-				562B5B6728A9BF0200640B64 /* nanopb.xcframework in Frameworks */,
-				562B5B5428A884C700640B64 /* CoreMedia.framework in Frameworks */,
-				562B5B6328A9BEF600640B64 /* GoogleUtilities.xcframework in Frameworks */,
-				562B5B6828A9BF0200640B64 /* UserMessagingPlatform.xcframework in Frameworks */,
-				562B5B5628A884C900640B64 /* CloudKit.framework in Frameworks */,
-				562B5B5F28A9BED000640B64 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
 				562B5B5228A884C400640B64 /* Pods_TapTapCoin.framework in Frameworks */,
-				562B5B5828A884CA00640B64 /* AVFoundation.framework in Frameworks */,
-				562B5B5D28A9BEC800640B64 /* GoogleAppMeasurement.xcframework in Frameworks */,
-				562B5B5A28A884CE00640B64 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +263,6 @@
 		56B9EF1927F0BEAF00C8E60D = {
 			isa = PBXGroup;
 			children = (
-				562B5B5C28A9BEC800640B64 /* GoogleAppMeasurement.xcframework */,
-				562B5B5E28A9BED000640B64 /* GoogleAppMeasurementIdentitySupport.xcframework */,
-				562B5B6028A9BEF600640B64 /* GoogleMobileAds.xcframework */,
-				562B5B6128A9BEF600640B64 /* GoogleUtilities.xcframework */,
-				562B5B6428A9BF0100640B64 /* nanopb.xcframework */,
-				562B5B6628A9BF0200640B64 /* PromisesObjC.xcframework */,
-				562B5B6528A9BF0200640B64 /* UserMessagingPlatform.xcframework */,
 				562B5B0A28A8490C00640B64 /* Podfile */,
 				562B5B0C28A8491400640B64 /* Podfile.lock */,
 				56B9EF2427F0BEAF00C8E60D /* TapTapCoin */,
@@ -430,7 +365,6 @@
 				56B9EF1F27F0BEAF00C8E60D /* Frameworks */,
 				56B9EF2027F0BEAF00C8E60D /* Resources */,
 				89E4B84D3AA3BEA6747E6D06 /* [CP] Embed Pods Frameworks */,
-				562B5B5128A884C100640B64 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -438,7 +372,6 @@
 			);
 			name = TapTapCoin;
 			packageProductDependencies = (
-				567DA673280106F30011F361 /* SocketIO */,
 			);
 			productName = TapTapCoin;
 			productReference = 56B9EF2227F0BEAF00C8E60D /* TapTapCoin.app */;
@@ -469,7 +402,6 @@
 			);
 			mainGroup = 56B9EF1927F0BEAF00C8E60D;
 			packageReferences = (
-				567DA672280106F30011F361 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
 			);
 			productRefGroup = 56B9EF2327F0BEAF00C8E60D /* Products */;
 			projectDirPath = "";
@@ -707,15 +639,12 @@
 				CODE_SIGN_ENTITLEMENTS = TapTapCoin/TapTapCoin.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"TapTapCoin/Preview Content\"";
 				DEVELOPMENT_TEAM = XZWF57692J;
 				ENABLE_PREVIEWS = YES;
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TapTapCoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -725,11 +654,8 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.1;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericviera.TapTapCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -751,14 +677,11 @@
 				CODE_SIGN_ENTITLEMENTS = TapTapCoin/TapTapCoin.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"TapTapCoin/Preview Content\"";
 				DEVELOPMENT_TEAM = XZWF57692J;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TapTapCoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -768,11 +691,8 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericviera.TapTapCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -806,25 +726,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		567DA672280106F30011F361 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		567DA673280106F30011F361 /* SocketIO */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 567DA672280106F30011F361 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
-			productName = SocketIO;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56B9EF1A27F0BEAF00C8E60D /* Project object */;
 }

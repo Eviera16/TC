@@ -9,6 +9,7 @@ import SwiftUI
 import GoogleMobileAds
 
 struct BannerAd: UIViewRepresentable {
+    @AppStorage("ad_loaded") var ad_loaded: Bool?
     
     var unitID: String
     
@@ -25,6 +26,8 @@ struct BannerAd: UIViewRepresentable {
         adView.rootViewController = UIApplication.shared.getRootViewController()
         
         adView.load(GADRequest())
+        
+        ad_loaded = true
         
         return adView
     }
